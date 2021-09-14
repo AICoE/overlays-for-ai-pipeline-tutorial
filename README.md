@@ -1,25 +1,25 @@
-# Thoth Tutorial - create and overlays for Elyra AI Pipelines steps.
+# Thoth Tutorial - create and use overlays for Elyra AI Pipelines steps.
 
 This tutorial is used to show the concept of overlays, how they are applied to software stacks, what are overlays builds and the use of the built images in AI Pipelines.
 
-`overlays` concept is a way of 'overlaying' common content and selectively change pieces of it for specific configurations. This concept is well established in deployments, for example when you have to deploy in different clusters or you have to deploy different environments in the same cluster (e.g. test, stage). Typically there are some commons base files that can be resuded across all overlays and then each overlay will have specific configurations overriding based configurations or adding new pieces to it.
+`overlays` concept is a way of 'overlaying' common content and selectively change pieces of it for specific configurations. This concept is well established in deployments, for example when you have to deploy in different clusters or you have to deploy different environments in the same cluster (e.g. test, stage). Typically there are some commons base files that can be reused across all overlays and then each overlay will have specific configurations overriding based configurations or adding new pieces to it.
 
 The same concept can be applied during image builds when there are different software stacks or runtime environment to be considered in the same repository. You can have common base piece of codes to be present in images with different software stacks or runtime environment.
 The possibility to optimize specific part of your code to perform a specific task is very important nowdays with all the combinations of libraries, operating systems, hardwares.
 
-If we consider some typical steps in Machine Learning lifecycle, for example `downloading dataset`, `preparing dataset` or `training a model`, each of this step can be optimized in terms of software stacks and runtime environment. Using overlays concept we can have different software stacks and runtime environment for each of them, we can rely on overlays builds to create specific optimized images for each of these step and use them in an AI pipelines.
+If we consider some typical steps in Machine Learning lifecycle, for example `downloading dataset`, `processing dataset` or `training a model`, each of this step can be optimized in terms of software stacks and runtime environment. Using overlays concept we can have different software stacks and runtime environment for each of them, we can rely on overlays builds to create specific optimized images for each of these step and use them in an AI pipelines.
 
 
 ## What you will learn with this tutorial?
 
-At the end of this tutorial you will be able to create overlays for your jupyter notebooks, setup [AICoE CI][1] and [Kebechet Bot][2] to automate creation of images for overlays and maintaining the software stack for each of the overlay. Moreover you will learn how to create and run an AI pipeline using the images created.
+At the end of this tutorial you will be able to create overlays for your jupyter notebooks, setup [AICoE CI][1] and [Kebechet Bot][2] to automate creation of images for overlays and maintenance of the software stack for each of the overlay. Moreover you will learn how to create and run an AI pipeline using the images created.
 
 
 ## Where you will run this tutorial?
 
-[Operate First][1] is an open infrastructure environment started at Red Hat's Office of the CTO. It has been selected to run this tutorial since it is an open source initiative that fulfills all the requirements stated above. Anyone with a Google account can log in and start developing. To learn more about Operate First, visit the [website](https://www.operate-first.cloud/) or [GitHub community](https://github.com/operate-first).
+[Operate First][6] is an open infrastructure environment started at Red Hat's Office of the CTO. It has been selected to run this tutorial since it is an open source initiative that fulfills all the requirements stated above. Anyone with a Google account can log in and start developing. To learn more about Operate First, visit the [website](https://www.operate-first.cloud/) or [GitHub community](https://github.com/operate-first).
 
-[Operate First][1] hosts [Open Data Hub][3] with all the tools provided for Data Science projects (e.g. JupyterHub, Elyra, Kubeflow Pipelines, Seldon, Prometheus, Grafana, Superset) running on [Red Hat Openshift][4].
+[Operate First][6] hosts [Open Data Hub][3] with all the tools provided for Data Science projects (e.g. JupyterHub, Elyra, Kubeflow Pipelines, Seldon, Prometheus, Grafana, Superset) running on [Red Hat Openshift][4].
 
 
 ## Why does the tutorial repository have this structure?
@@ -55,9 +55,11 @@ The project template used can be found here: [project template][1]. It shows cor
 * [Open Data Hub][3]
 * [Red Hat Openshift][4]
 * [project template][5]
+* [Operate First][6]
 
 [1]: https://github.com/AICoE/aicoe-ci
 [2]: https://github.com/marketplace/khebhut
 [3]: https://opendatahub.io/
 [4]: https://www.openshift.com/
 [5]: https://github.com/aicoe-aiops/project-template
+[6]: https://www.operate-first.cloud/

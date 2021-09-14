@@ -1,6 +1,6 @@
 # Create overlays from notebooks
 
-For the purpose of this tutorial, the notebooks have been created already. They all contain dependencies information in their metadata thanks to [jupyterlab-requirements][1] library that allow for reproducibility. 
+For the purpose of this tutorial, the notebooks have been created already. They all contain dependencies information in their metadata thanks to [jupyterlab-requirements][1] library that allow for reproducibility.
 
 Dependency management is one of the most important requirements for reproducibility. Having dependencies clearly stated allows portability of notebooks, so they can be shared safely with others, reused in other projects or simply reproduced. If you want to know more about this issue in the data science domain, have a look at this [article](https://developers.redhat.com/blog/2021/03/19/managing-python-dependencies-with-the-thoth-jupyterlab-extension/) or this [video](https://www.youtube.com/watch?v=ifyQ2oSxjnU).
 If you are interested in a tutorial on managing dependencies, you can have a look at this [tutorial](https://github.com/AICoE/manage-dependencies-tutorial).
