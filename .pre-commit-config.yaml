@@ -51,12 +51,6 @@ repos:
     hooks:
       - id: black-nb
 
-  # Enable this in repositories with python packages.
-  # - repo: https://github.com/mgedmin/check-manifest
-  #   rev: '0.39'
-  #   hooks:
-  #     - id: check-manifest
-
   - repo: https://github.com/s-weigand/flake8-nb
     rev: v0.3.0
     hooks:
