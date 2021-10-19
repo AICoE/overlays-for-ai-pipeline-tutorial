@@ -35,7 +35,7 @@ The project template used can be found here: [project template][1]. It shows cor
 
 1. [Setup your initial environment](./docs/setup-initial-environment.md)
 
-2. [Create overlays from notebooks](./docs/create-overlays-from-notebooks.md)
+2. [Create overlays from notebooks](./docs/create-overlays-from-notebook.md)
 
 3. [Push changes to GitHub](./docs/push-changes.md)
 
