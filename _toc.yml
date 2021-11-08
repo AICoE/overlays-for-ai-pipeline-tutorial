@@ -1,0 +1,20 @@
+format: jb-book
+root: README
+parts:
+  - caption: Behind the Scenes
+    chapters:
+    - file: docs/source/pre-requisite
+    - file: docs/source/setup-initial-environment
+  - caption: Create overlays from Notebooks
+    chapters:
+    - file: docs/source/create-overlays-from-notebook
+  - caption: Contribute and save changes
+    chapters:
+    - file: docs/source/push-changes
+  - caption: Automate dependencies updated and releases
+    chapters:
+    - file: docs/source/thoth-aicoe-services
+  - caption: Run an AI Pipeline
+    chapters:
+    - file: docs/source/create-ai-pipeline
+    - file: docs/source/run-ai-pipeline

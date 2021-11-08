@@ -29,23 +29,21 @@ The project template used can be found here: [project template][1]. It shows cor
 
 ## Tutorial pre-requisites
 
-0. [Pre-requisites](./docs/pre-requisite.md)
+0. [Pre-requisites](./docs/source/pre-requisite.md)
 
 ## Tutorial Steps
 
-1. [Setup your initial environment](./docs/setup-initial-environment.md)
+1. [Setup your initial environment](./docs/source/setup-initial-environment.md)
 
-2. [Create overlays from notebooks](./docs/create-overlays-from-notebook.md)
+2. [Create overlays from notebooks](./docs/source/create-overlays-from-notebook.md)
 
-3. [Push changes to GitHub](./docs/push-changes.md)
+3. [Push changes to GitHub](./docs/source/push-changes.md)
 
-4. [Setup bots and pipelines to create releases, build images with overlays and enable automatic dependency management](./docs/thoth-aicoe-services.md)
+4. [Setup bots and pipelines to create releases, build images with overlays and enable automatic dependency management](./docs/source/thoth-aicoe-services.md)
 
-5. [Create an AI Pipeline](./docs/create-ai-pipeline.md)
+5. [Create an AI Pipeline](./docs/source/create-ai-pipeline.md)
 
-6. [Run and debug AI Pipeline](./docs/run-ai-pipeline.md)
-
-7. [Share your work](./docs/share-your-work.md)
+6. [Run and debug AI Pipeline](./docs/source/run-ai-pipeline.md)
 
 
 ## References
